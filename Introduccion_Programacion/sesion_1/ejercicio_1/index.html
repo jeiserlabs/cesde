@@ -1,64 +1,91 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panadería</title>
+    <title>Panadería Artesanal - Sesión 1</title>
+    <!-- Vinculación de Hoja de Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- 1. Encabezado con Banner y Navegación -->
-    <header>
-      <img src="imagen/banner.png" alt="" />
-      <nav>
-        <a>Inicio</a>
-        <a>Contacto</a>
-        <a>Productos</a>
-        <a>Sobre Nosotros</a>
+    <header class="main-header">
+      <div class="banner-container">
+        <img src="imagen/banner.png" alt="Banner Panadería Artesanal" class="banner-img" />
+      </div>
+      <nav class="main-nav">
+        <a href="#inicio" class="nav-item">Inicio</a>
+        <a href="#productos" class="nav-item">Productos</a>
+        <a href="#recetas" class="nav-item">Recetas</a>
+        <a href="#contacto" class="nav-item">Contacto</a>
       </nav>
     </header>
 
-    <!-- 2. Contenido Principal: Tabla de Recetas (4 filas x 3 columnas) -->
-    <main>
-      <section>
-        <table>
-          <!-- Fila 1: Encabezados -->
-          <tr>
-            <th>Descripción</th>
-            <th>Video</th>
-            <th>Imagen</th>
-          </tr>
-          <!-- Fila 2: Churro -->
-          <tr>
-            <td></td>
-            <td>
-              <video src="video/receta_churro.mp4" controls width="300"></video>
-            </td>
-            <td>
-              <img src="imagen/churro.jpg" alt="" width="200" />
-            </td>
-          </tr>
-          <!-- Fila 3: Buñuelos -->
-          <tr>
-            <td></td>
-            <td>
-              <video src="video/receta_churro.mp4" controls width="300"></video>
-            </td>
-            <td>
-              <img src="imagen/bunuelos.jpg" alt="" width="200" />
-            </td>
-          </tr>
-          <!-- Fila 4: Orejuela / Hojuelas -->
-          <tr>
-            <td></td>
-            <td>
-              <video src="video/receta_churro.mp4" controls width="300"></video>
-            </td>
-            <td>
-              <img src="imagen/orejuela.jpg" alt="" width="200" />
-            </td>
-          </tr>
+    <!-- 2. Contenido Principal: Tabla de Recetas y Productos -->
+    <main class="content-wrapper">
+      <section class="table-section">
+        <h2 class="section-title">Nuestras Especialidades del Horno</h2>
+        <table class="bakery-table">
+          <thead>
+            <tr>
+              <th>Descripción del Producto</th>
+              <th>Video Demostrativo</th>
+              <th>Presentación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Fila 1: Churros -->
+            <tr>
+              <td class="desc-cell">
+                <h3>Churros Artesanales</h3>
+                <p>Masa tradicional frita a temperatura controlada, espolvoreada con canela y azúcar morena. Rellena de arequipe de leche entera o chocolate semi-amargo.</p>
+                <span class="price-tag">$4.500 COP</span>
+              </td>
+              <td class="media-cell">
+                <video src="video/receta_churro.mp4" controls width="280"></video>
+              </td>
+              <td class="media-cell">
+                <img src="imagen/churro.jpg" alt="Churro Artesanal" width="220" />
+              </td>
+            </tr>
+
+            <!-- Fila 2: Buñuelos -->
+            <tr>
+              <td class="desc-cell">
+                <h3>Buñuelos Tradicionales</h3>
+                <p>Auténticos buñuelos colombianos con mezcla de queso costeño y almidón de yuca. Textura crujiente por fuera y corazón esponjoso y dorado.</p>
+                <span class="price-tag">$3.000 COP</span>
+              </td>
+              <td class="media-cell">
+                <video src="video/receta_churro.mp4" controls width="280"></video>
+              </td>
+              <td class="media-cell">
+                <img src="imagen/bunuelos.jpg" alt="Buñuelos Colombianos" width="220" />
+              </td>
+            </tr>
+
+            <!-- Fila 3: Hojuelas / Orejuelas -->
+            <tr>
+              <td class="desc-cell">
+                <h3>Hojuelas / Orejuelas</h3>
+                <p>Finas láminas de masa crocante aromatizadas con jugo de naranja y limón, fritas al instante y cubiertas de azúcar refinada.</p>
+                <span class="price-tag">$2.500 COP</span>
+              </td>
+              <td class="media-cell">
+                <video src="video/receta_churro.mp4" controls width="280"></video>
+              </td>
+              <td class="media-cell">
+                <img src="imagen/orejuela.jpg" alt="Hojuela Tradicional" width="220" />
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
     </main>
+
+    <!-- 3. Pie de Página -->
+    <footer class="main-footer">
+      <p>&copy; 2026 Panadería Artesanal CESDE | Taller de Maquetación y CSS</p>
+    </footer>
   </body>
 </html>
