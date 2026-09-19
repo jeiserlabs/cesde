@@ -63,10 +63,18 @@ En clase se avanzó rápido y quedaron vacíos en el armado. En casa lo haremos 
 ---
 
 ## 🧠 4. MÓDULO LÓGICA DE PROGRAMACIÓN (CLASE CON LILIANA VERA)
-* Al finalizar tu clase actual de Lógica, copiaremos y versionaremos los ejercicios de hoy:
-  * Análisis de Entrada - Proceso - Salida (E-P-S).
-  * Algoritmos en PSeInt (`.psc` con sintaxis CESDE: `variable = 0`, tres bloques comentados).
-  * Implementación en Java (`.java`).
+* **🚨 TAREA EVALUATIVA (VALOR: 1.5 PUNTOS):**
+  * **Ubicación en ecesde:** Semana 7 $\rightarrow$ `subir tarea condicional si en casa`.
+  * **Entregable:** 1 solo ejercicio enviado al grupo de WhatsApp/Telegram.
+  * **Empaquetado:** Carpeta comprimida en `.zip` con los 3 archivos:
+    1. `.txt`: Estructura canónica oficial en Bloc de notas (`DATOS DE ENTRADA`, `PROCESO`, `DATOS DE SALIDA`, `ALGORITMO`).
+    2. `.psc`: Algoritmo en PSeInt probado y funcionando.
+    3. `.java`: Código fuente en Java ejecutable con `Scanner`.
+  * **Guía detallada creada:** [`Logica/SEMANA 7/TAREA_CONDICIONAL_SI_EN_CASA.md`](../Logica/SEMANA%207/TAREA_CONDICIONAL_SI_EN_CASA.md).
+* **Archivos completados en clase hoy:**
+  * [`ejercicio_5.java`](../Logica/SEMANA%207/Ejercicios/src/ejercicio_5.java): Implementado en Java con validaciones.
+  * [`ejercicio5_LilianaVera_Original.txt`](../Logica/SEMANA%207/ejercicio5_LilianaVera_Original.txt): Plantilla original respaldada.
+  * [`TALLER_DECISIONES_LOGICAS_RESUELTO.md`](../Logica/SEMANA%207/TALLER_DECISIONES_LOGICAS_RESUELTO.md): Taller completo resuelto con la estructura canónica.
 
 ---
 
