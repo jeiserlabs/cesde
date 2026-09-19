@@ -10,51 +10,34 @@
 
 <body>
     <header>
-        <figure>
-            <img class="imagenCl" src="imagenes/imagen2i.png">
-        </figure>
+        
+        <img class="imagenCl" src="imagenes/imagen2i.png">
+        
         <!-- Barra de navegación-->
-        <nav>
-            Inicio
-            Contacto
-            Productos
-            Sobre Nosotros
+        <nav id="menuPpal">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+            </ul>
         </nav>
     </header>
     <!-- Información principal-->
     <main>
-        <section>
+        <section id="recetas">
 
-            <audio src="/audios/audioHome.mp3" controls></audio>
+            <div class="contRecestas">
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Descripción</th>
-                        <th>Video</th>
-                        <th>Imagen</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Churro</td>
-                        <td><video id="video1" src="videos/churros.mp4" width="300px" controls></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Arepuela</td>
-                        <td><video id="video2" src="videos/churros.mp4" width="300px" controls></video></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Buñuelo</td>
-                        <td><video id="video3" src="videos/churros.mp4" width="300px" controls></video></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
+                <video id="video1" src="videos/churros.mp4"  controls></video>
 
-            
+            </div>
+            <div class="contRecestas">
+                 <video id="video1" src="videos/churros.mp4"  controls></video>
+            </div>
+            <div class="contRecestas">
+                 <video id="video1" src="videos/churros.mp4"  controls></video>
+            </div>
 
         </section>
 
