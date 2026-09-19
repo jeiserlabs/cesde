@@ -1,0 +1,95 @@
+DATOS DE ENTRADA 
+	Tipo_de_trabajador=""
+        Nombre_trabajador=""
+	Horas_trabajadas=0
+	Salario_basico_hora=0
+	Deducciones=0
+	Bonificaciones=0
+
+PROCESO
+  si (Tipo_de_trabajador="FIJO" o Tipo_de_trabajador="fijo")
+      Leer Horas_trabajadas
+      Leer Salario_basico_hora
+      Leer Deducciones
+      Leer Bonificaciones
+      
+  sino
+     si (Tipo_de_trabajador="TEMPORAL" O Tipo_de_trabajador="temporal"
+         Leer Horas_trabajadas
+         Salario_basico_hora=6000
+         Bonificaciones=0
+         Deducciones=0
+     sino
+         Escribir "Error.... Tipo de trabajador incorrecto!!!"
+     finsi
+  finsi
+     Salario_Neto = Horas_trabajadas * Salario_basico_hora + Bonificaciones - Deducciones
+
+
+DATOS DE SALIDA
+    Tipo_de_trabajador
+    Nombre_trabajador
+    Horas_trabajadas
+    Salario_basico_hora
+    Deducciones
+    Bonificaciones
+    Salario_Neto
+
+ALGORITMO
+   Tipo_de_trabajador=""
+   Nombre_trabajador=""
+   Horas_trabajadas=0
+   Salario_basico_hora=0
+   Deducciones=0
+   Bonificaciones=0
+   Salario_neto=0
+   Escribir "Tipo de empleado (FIJO / TEMPORAL)"
+   Leer Tipo_de_trabajador
+   escribir "Nombre del trabajador: "
+   Leer Nombre_trabajador
+   si (Tipo_de_trabajador="FIJO" o Tipo_de_trabajador="fijo")
+      Escribir "Cantidad de horas trabajadas: "
+      Leer Horas_trabajadas
+      Escribir "Valor hora de trabajo: "
+      Leer Salario_basico_hora
+      Escribir "Valor deducciones: "
+      Leer Deducciones
+      Escribir "Valor de las bonificaciones: "
+      Leer Bonificaciones
+  sino
+     si (Tipo_de_trabajador="TEMPORAL" O Tipo_de_trabajador="temporal"
+         Escribir "Cantidad de horas trabajadas: "
+         Leer Horas_trabajadas
+         Salario_basico_hora=6000
+         Bonificaciones=0
+         Deducciones=0
+     sino
+         Escribir "Error.... Tipo de trabajador incorrecto!!!"
+     finsi
+  finsi
+     Salario_Neto = Horas_trabajadas * Salario_basico_hora + Bonificaciones - Deducciones
+
+   //DATOS DE SALIDA -  MOSTRAR
+   Escribir "--------------- INFORME ---------------"
+   Escribir "Tipo de empleado: " + Tipo_de_trabajador
+   Escribir "Nombre empleado: + Nombre_trabajador
+   Escribir "Cantidad de horas trabajadas: " + Horas_trabajadas
+   Escribir "Valor hora trabajada: " + Salario_basico_hora
+   Escribir "valor de las bonificaciones: " + Bonificaciones
+   Escribir "Valor de las deducciones" + Deducciones
+   Escribir "------------------------------"
+   Escribir "Neto a pagar: " + Salario_Neto
+Fin algoritmo
+
+  
+ 
+
+    
+
+
+
+
+
+
+
+      
