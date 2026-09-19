@@ -1,0 +1,77 @@
+======================================================================
+CESDE - TÉCNICO LABORAL EN DESARROLLO DE SOFTWARE
+MÓDULO: LÓGICA DE PROGRAMACIÓN (NIVEL 1)
+DOCENTE: ANA LILIANA VERA / JONATHAN PIEDRAHITA
+ESTUDIANTE: JEISER GUTIÉRREZ
+DOCUMENTO: EJERCICIOS DE DECISIONES LÓGICAS - EJERCICIO 5
+======================================================================
+
+ENUNCIADO:
+5. Un obrero necesita calcular su salario semanal, el cual se obtiene de 
+la siguiente manera:
+- Si trabaja 40 horas o menos se le paga $16.000 por hora.
+- Si trabaja más de 40 horas se le paga $16.000 por cada una de las 
+  primeras 40 horas y $20.000 por cada hora extra.
+
+----------------------------------------------------------------------
+1. ANÁLISIS DE ENTRADA, PROCESO Y SALIDA (E-P-S)
+----------------------------------------------------------------------
+
+DATOS DE ENTRADA:
+- nombre_obrero = ""           (Texto: Identificación del trabajador)
+- horas_trabajadas = 0         (Entero/Real: Cantidad de horas laboradas en la semana)
+
+DATOS INTERMEDIOS / CONSTANTES:
+- TARIFA_NORMAL = 16000        (Valor por hora ordinaria hasta 40 horas)
+- TARIFA_EXTRA = 20000         (Valor por hora extra superior a 40 horas)
+- LIMITE_ORDINARIO = 40        (Límite de horas ordinarias semanales)
+- horas_extras = 0             (Horas que exceden el límite de 40)
+- pago_ordinario = 0           (Total acumulado por horas normales)
+- pago_extras = 0              (Total acumulado por horas extras)
+
+PROCESO:
+1. Leer nombre del obrero y horas trabajadas en la semana.
+2. Evaluar condición:
+   SI (horas_trabajadas <= 40) ENTONCES:
+       horas_extras = 0
+       pago_ordinario = horas_trabajadas * 16000
+       pago_extras = 0
+       salario_total = pago_ordinario
+   SINO (horas_trabajadas > 40):
+       horas_extras = horas_trabajadas - 40
+       pago_ordinario = 40 * 16000   // Equivale a $640.000 fijos ordinarios
+       pago_extras = horas_extras * 20000
+       salario_total = pago_ordinario + pago_extras
+   FIN SI
+
+DATOS DE SALIDA:
+- nombre_obrero
+- horas_trabajadas
+- horas_extras
+- pago_ordinario
+- pago_extras
+- salario_total
+
+----------------------------------------------------------------------
+2. PRUEBA DE ESCRITORIO (Casos de prueba)
+----------------------------------------------------------------------
+Caso 1: Menos de 40 horas
+- Horas: 35
+- Proceso: 35 <= 40 -> 35 * 16000 = $560.000
+- Horas extras: 0
+- Salario total: $560.000
+
+Caso 2: Exactamente 40 horas
+- Horas: 40
+- Proceso: 40 <= 40 -> 40 * 16000 = $640.000
+- Horas extras: 0
+- Salario total: $640.000
+
+Caso 3: Más de 40 horas (horas extras)
+- Horas: 48
+- Proceso: 48 > 40
+  * Horas extras = 48 - 40 = 8 horas
+  * Pago ordinario = 40 * 16000 = $640.000
+  * Pago extras = 8 * 20000 = $160.000
+- Salario total: $640.000 + $160.000 = $800.000
+======================================================================
