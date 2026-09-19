@@ -1,57 +1,55 @@
 /*esto es un selecto que afecta en todos los elementos de mi pagina*/
-*{
-    margin:0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 /*generar estilos por medio de una clase*/
-.imagenCl
-{
-    width: 100%;
+.imagenCl {
+  width: 100%;
 }
-#video1
-{
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 50px 2px #F4EE90;
+#video1 {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px 2px #f4ee90;
 }
-#video3
-{
-  
-    border-radius: 20px;
-    box-shadow: 5px 5px 30px 5px #7d6a6a;
+#video3 {
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px 5px #7d6a6a;
 }
-#textoProductosCasa>h2+p+p
-{
-    color:red;
+#textoProductosCasa > h2 + p + p {
+  color: red;
 }
 
-#menuPpal
-{
-    background-color: rgb(46, 20, 1);
-    padding: 8px;
-    box-shadow: 5px 5px 10px 5px gray;
+#menuPpal {
+  background-color: rgb(46, 20, 1);
+  padding: 8px;
+  box-shadow: 5px 5px 10px 5px gray;
 }
 
-#menuPpal a
-{
-    text-decoration: none;
-    color:rgb(214, 214, 214);
+#menuPpal a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
 }
-#menuPpal li
-{
-    display:inline;
-    padding: 8px;   
+#menuPpal li {
+  display: inline;
+  padding: 8px;
 }
-.contRecestas
-{
-    width: 400px;
-    height: 250px;
-    
-    padding: 30px;
-    padding-top: 40px;
+.contRecestas {
+  width: 400px;
+  height: 250px;
+
+  padding: 30px;
+  padding-top: 40px;
 }
-#recetas
-{
-    display: flex;
-    justify-content: space-evenly;
+#recetas {
+  display: flex;
+  justify-content: space-evenly;
+}
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Henny Penny", system-ui;
 }
