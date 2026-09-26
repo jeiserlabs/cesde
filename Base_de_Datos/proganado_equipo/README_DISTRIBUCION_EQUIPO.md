@@ -1,4 +1,4 @@
-﻿# 🐄 Distribución de Módulos DDL - ProGanado (CESDE Nivel 1)
+# 🐄 Distribución de Módulos DDL - ProGanado (CESDE Nivel 1)
 
 **Proyecto:** ProGanado SaaS (Gestión Ganadera y Trazabilidad Lechera)  
 **Motor:** Microsoft SQL Server 2022 (T-SQL)  
@@ -16,7 +16,9 @@ Debido a las **Claves Foráneas (Foreign Keys)**, los scripts deben ejecutarse e
 | **Módulo 1** | **Jeiser Gutiérrez** | `usuarios`, `fincas`, `suscripciones_saas` | Seguridad, Predios y Acceso SaaS (Padres Raíz) | `01_modulo_usuarios_fincas_JEISER.sql` |
 | **Módulo 2** | **Sebastián** | `potreros`, `razas`, `medicamentos` | Rotación PRV y Catálogos Sanitarios/Genéticos | `02_modulo_catalogos_potreros_SEBASTIAN.sql` |
 | **Módulo 3** | **Emilio** | `bovinos`, `marcaciones`, `entregas_acopio` | Ficha del Ganado, Chapetas/Aretes y Acopio Colanta | `03_modulo_bovinos_acopio_EMILIO.sql` |
-| **Módulo 4** | **Humberto** | `tratamientos_sanitarios`, `pesajes_leche`, `eventos_reproductivos` | Inocuidad Cinta Roja, Telemetría de Ordeño y Reproducción | `04_modulo_sanidad_produccion_HUMBERTO.sql` |
+| **Módulo 4** | **Héctor Pinto (Humberto)** | `tratamientos_sanitarios`, `pesajes_leche`, `eventos_reproductivos` | Inocuidad Cinta Roja, Telemetría de Ordeño y Reproducción | `04_modulo_sanidad_produccion_HUMBERTO.sql` |
+
+*(Nota de auditoría: Equipo oficial de 4 integrantes consolidado en piedra el 26-Sep-2026; Camila Salas retirada formalmente del curso).*
 
 ---
 
