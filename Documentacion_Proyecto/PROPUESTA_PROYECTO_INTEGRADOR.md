@@ -8,6 +8,8 @@
 
 **Documento Fuente:** [Google Docs Integrador](https://docs.google.com/document/d/1L1qO_iAGdEowAJnnbhv7B4438Tms9MDP/edit)
 
+> ⚠️ **EVOLUCIÓN DEL PROYECTO (SSOT):** La propuesta preliminar "MiPrimeraEmpresa" (Avance 1, Agosto 2026) fue superada y evolucionó oficialmente a **ProGanado SaaS** (12 tablas en 3FN, inocuidad Cinta Roja y acopio Colanta). El repositorio central del software es [jeiserlabs/proganado](https://github.com/jeiserlabs/proganado) y la distribución DDL para el equipo está en `Base_de_Datos/proganado_equipo/`.
+
 ---
 
 ## 🎯 Arquitectura: "Caso de Estudio en Tres Capas Desconectadas"
