@@ -24,8 +24,8 @@ set "NODE_DIR=%LOCALAPPDATA%\PortableNode"
 set "NPM_PREFIX=%USERPROFILE%\npm-global"
 set "AGY_DIR=%LOCALAPPDATA%\agy\bin"
 set "VSC_DIR=%LOCALAPPDATA%\Programs\Microsoft VS Code\bin"
-set "REPO_URL=https://github.com/jeiser270997-source/Asistente_Personal.git"
-set "REPO_NAME=Asistente_Personal"
+set "REPO_URL=https://github.com/jeiserlabs/lifeos.git"
+set "REPO_NAME=lifeos"
 set "REPO_DEST=%USERPROFILE%\%REPO_NAME%"
 
 echo ==============================================================
@@ -139,7 +139,7 @@ if "%GH_TOKEN%"=="" (
     goto repo_done
 )
 echo [..] Descargando ZIP de %REPO_NAME% con el token...
-curl -sL -H "Authorization: token %GH_TOKEN%" -o "%USERPROFILE%\%REPO_NAME%.zip" "https://codeload.github.com/jeiser270997-source/%REPO_NAME%/zip/refs/heads/main"
+curl -sL -H "Authorization: token %GH_TOKEN%" -o "%USERPROFILE%\%REPO_NAME%.zip" "https://codeload.github.com/jeiserlabs/%REPO_NAME%/zip/refs/heads/main"
 if not exist "%USERPROFILE%\%REPO_NAME%.zip" (
     echo [WARN] Descarga fallo. Token invalido o sin acceso.
     set "GH_TOKEN="

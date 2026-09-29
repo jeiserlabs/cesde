@@ -8,7 +8,7 @@ $NodeDir = "$env:LOCALAPPDATA\PortableNode"
 $GitDir = "$env:LOCALAPPDATA\PortableGit"
 $VSCodeDataDir = "$env:USERPROFILE\JeiserVSCodeData"
 $VSCodeExtDir = "$env:USERPROFILE\JeiserVSCodeExts"
-$RepoOwnerRepo = "jeiser270997-source/Asistente_Personal"
+$RepoOwnerRepo = "jeiserlabs/lifeos"
 $DefaultToken = $env:GITHUB_TOKEN
 
 Write-Host "[1/7] Verificando directorio de trabajo..." -ForegroundColor Cyan

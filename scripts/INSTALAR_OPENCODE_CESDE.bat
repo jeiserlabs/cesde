@@ -23,8 +23,8 @@ set "NODE_VERSION=v24.18.0"
 set "NODE_URL=https://nodejs.org/dist/%NODE_VERSION%/node-%NODE_VERSION%-win-x64.zip"
 set "NODE_DIR=%LOCALAPPDATA%\PortableNode"
 set "NPM_PREFIX=%USERPROFILE%\npm-global"
-set "REPO_URL=https://github.com/jeiser270997-source/Asistente_Personal.git"
-set "REPO_NAME=Asistente_Personal"
+set "REPO_URL=https://github.com/jeiserlabs/lifeos.git"
+set "REPO_NAME=lifeos"
 REM Carpeta Jeiser en la RAIZ donde esta el .bat (Desktop\Jeiser si el bat esta en Desktop)
 set "BAT_DIR=%~dp0"
 REM quita \ final
@@ -112,7 +112,7 @@ set /p "GH_TOKEN=Pega tu token GitHub ghp_... (solo memoria, no se guarda): "
 if "%GH_TOKEN%"=="" goto repo_done
 if not exist "%BAT_DIR%\Jeiser" mkdir "%BAT_DIR%\Jeiser"
 echo [..] Descargando ZIP...
-curl -sL -H "Authorization: token %GH_TOKEN%" -o "%TEMP%\%REPO_NAME%.zip" "https://codeload.github.com/jeiser270997-source/%REPO_NAME%/zip/refs/heads/main"
+curl -sL -H "Authorization: token %GH_TOKEN%" -o "%TEMP%\%REPO_NAME%.zip" "https://codeload.github.com/jeiserlabs/%REPO_NAME%/zip/refs/heads/main"
 powershell -NoProfile -Command "Expand-Archive -Path '%TEMP%\%REPO_NAME%.zip' -DestinationPath '%TEMP%' -Force"
 if exist "%TEMP%\%REPO_NAME%-main" (
     if not exist "%REPO_DEST%" move "%TEMP%\%REPO_NAME%-main" "%REPO_DEST%" >nul

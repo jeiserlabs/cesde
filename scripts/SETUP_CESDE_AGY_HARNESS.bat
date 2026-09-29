@@ -15,8 +15,8 @@ set "NODE_DIR=%LOCALAPPDATA%\PortableNode"
 set "NPM_PREFIX=%USERPROFILE%\npm-global"
 set "AGY_DIR=%LOCALAPPDATA%\agy\bin"
 set "VSC_DIR=%LOCALAPPDATA%\Programs\Microsoft VS Code\bin"
-set "REPO_URL=https://github.com/jeiser270997-source/Asistente_Personal.git"
-set "REPO_NAME=Asistente_Personal"
+set "REPO_URL=https://github.com/jeiserlabs/lifeos.git"
+set "REPO_NAME=lifeos"
 set "REPO_DEST=%USERPROFILE%\%REPO_NAME%"
 
 echo ==============================================================
@@ -85,7 +85,7 @@ if exist "%REPO_DEST%\.git" (
         echo.
         echo [..] Intentando descarga directa con Token...
         set /p "GHTOKEN=Pega tu token de GitHub (ghp_...): "
-        curl -sL -H "Authorization: token %GHTOKEN%" -o "%USERPROFILE%\repo.zip" "https://codeload.github.com/jeiser270997-source/%REPO_NAME%/zip/refs/heads/main"
+        curl -sL -H "Authorization: token %GHTOKEN%" -o "%USERPROFILE%\repo.zip" "https://codeload.github.com/jeiserlabs/%REPO_NAME%/zip/refs/heads/main"
         powershell -NoProfile -Command "Expand-Archive -Path '%USERPROFILE%\repo.zip' -DestinationPath '%USERPROFILE%' -Force; Move-Item '%USERPROFILE%\%REPO_NAME%-main' '%REPO_DEST%'; Remove-Item '%USERPROFILE%\repo.zip'"
         set "GHTOKEN="
     )
