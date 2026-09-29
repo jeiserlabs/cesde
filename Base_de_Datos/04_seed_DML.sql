@@ -13,7 +13,7 @@ INSERT INTO TIPO_REGIMEN (id_tipo_regimen, nombre_regimen, descripcion, aplica_i
 
 -- 2. POBLAR MICROEMPRESAS
 INSERT INTO EMPRESA (id_empresa, nit_rut, razon_social, direccion, telefono, email, fecha_registro, id_tipo_regimen) VALUES
-(1, '1000000001-1', 'Chorizos Artesanales Don Juan', 'Calle 50 #45-12, Medellín', '3000000001', 'contacto@donjuanchorizos.co', '2026-08-01', 1),
+(1, '900333222-1', 'Chorizos Artesanales Don Juan', 'Calle 50 #45-12, Medellín', '3005557788', 'contacto@donjuanchorizos.co', '2026-08-01', 1),
 (2, '901234567-8', 'Servicios Contables E-Contable S.A.S.', 'Carrera 43A #1-50, Envigado', '6044445566', 'facturacion@e-contable.com', '2026-08-05', 2),
 (3, '1020304050-2', 'TecnoFix Mantenimiento PC', 'Calle 10 #30-15, Itagüí', '3109876543', 'soporte@tecnofix.co', '2026-08-08', 1);
 
