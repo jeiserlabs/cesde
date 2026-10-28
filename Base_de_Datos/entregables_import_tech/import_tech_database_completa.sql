@@ -2,7 +2,7 @@
 -- CASO DE ESTUDIO: IMPORT TECH S.A.S.
 -- BASE DE DATOS COMPLETA: DDL + DML + VISTAS + PROCEDIMIENTOS + TRIGGERS
 -- PROGRAMA: CONSTRUCCIÓN DE BASES DE DATOS CON MYSQL (FICHA 3625806)
--- APRENDIZ: JEISER ABRAHAM GUTIÉRREZ TORRES (C.C. 1000000001)
+-- APRENDIZ: JEISER ABRAHAM GUTIÉRREZ TORRES (documento omitido por privacidad)
 -- INSTRUCTOR: EWIN MAURICIO ORTIZ LÓPEZ
 -- REGIONAL: CENTRO DE GESTIÓN AGROEMPRESARIAL DEL ORIENTE / REGIONAL CESAR
 -- MOTOR: MySQL 8.0+ / CHARSET: utf8mb4 / COLLATION: utf8mb4_unicode_ci
@@ -124,9 +124,9 @@ INSERT INTO proveedores (nit, nombre, calle, numero, comuna, ciudad, telefono, p
 
 -- Inserción de Clientes
 INSERT INTO clientes (documento, nombre, calle, numero, comuna, ciudad) VALUES
-('1000000001', 'Carlos Mendoza Silva', 'Calle 10', '# 70A Sur - 35', 'La Triana', 'La Estrella'),
-('1000000002', 'Johana Gutiérrez Torres', 'Calle 50', '# 45-20', 'Centro', 'Medellín'),
-('1000000003', 'Sofía Ramírez Restrepo', 'Circular 4', '# 73-12', 'Laureles', 'Medellín');
+('1000000001', 'Carlos Mendoza Silva', 'Calle 10', '# 20-30', 'Centro', 'Medellín'),
+('1000000002', 'Laura Restrepo Mejía', 'Carrera 45', '# 12-08', 'Laureles', 'Medellín'),
+('1000000003', 'Andrés Ramírez Torres', 'Circular 3', '# 40-15', 'Belén', 'Medellín');
 
 -- Inserción de Teléfonos de Clientes
 INSERT INTO cliente_telefonos (id_cliente, tipo, numero) VALUES
