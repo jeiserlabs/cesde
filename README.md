@@ -17,19 +17,19 @@ El repositorio centraliza los proyectos, talleres y evidencias de aprendizaje de
 - **Metodología de Desarrollo:** Tríada estándar CESDE:
   - .txt: Análisis formal Entrada - Proceso - Salida (E-P-S).
   - .psc: Algoritmo formal en PSeInt (declaración directa de variables, operadores lógicos/relacionales).
-  - .java: Implementación en Java 21 LTS (VS Code, manejo de entrada con \Scanner\, condicionales anidados).
+  - .java: Implementación en Java 21 LTS (VS Code, manejo de entrada con `Scanner`, condicionales anidados).
 - **Contenido:**
-  - \1_Promedio_Alumno/\: Condicional anidado de rendimiento académico.
-  - \	aller_algoritmos_basicos/\: 16 ejercicios de algoritmia secuencial y selectiva.
-  - \Taller_Desempeno_Algoritmos/\: Talleres evaluativos de lógica formal.
+  - `01_Promedio_Alumno.psc`: Condicional anidado de rendimiento académico.
+  - `taller_algoritmos_basicos/`: 16 ejercicios de algoritmia secuencial y selectiva.
+  - `Taller_Desempeno_Algoritmos/`: Talleres evaluativos de lógica formal.
 
 ### 2. 🌐 [Introducción a la Programación / Desarrollo Web](Introduccion_Programacion/)
 - **Docente:** Felipe Piedrahita
 - **Temáticas:** Fundamentos de Git/GitHub, HTML5 Semántico, Accesibilidad (a11y), Formularios y Tablas avanzadas.
 - **Contenido:**
-  - \sesion_1/\ a \sesion_4/\: Talleres prácticos guiados en clase.
-  - \sesion_6/\: Práctica de control de versiones Git y publicación en GitHub.
-  - \	aller_completo_html/\: Entregable integral con páginas semánticas de tablas, listas y formularios.
+  - `sesion_1/` a `sesion_4/`: Talleres prácticos guiados en clase.
+  - `sesion_6/`: Práctica de control de versiones Git y publicación en GitHub.
+  - `taller_completo_html/`: Entregable integral con páginas semánticas de tablas, listas y formularios.
 
 ### 3. 🗄️ [Bases de Datos Relacionales](Base_de_Datos/)
 - **Docente:** Docente de Sábados
