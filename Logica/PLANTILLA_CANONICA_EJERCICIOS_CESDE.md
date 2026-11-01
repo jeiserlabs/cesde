@@ -1,6 +1,6 @@
 # 📜 PLANTILLA CANÓNICA OBLIGATORIA DE EJERCICIOS DE LÓGICA (CESDE)
-> **Fuente SSOT:** [`C:\Users\desarrollo\Desktop\ejercicio5.txt`](file:///C:/Users/desarrollo/Desktop/ejercicio5.txt)  
-> **Docente:** Ana Liliana Vera Gómez  
+> **Fuente SSOT:** [`SEMANA 7/ejercicio5_LilianaVera_Original.txt`](<SEMANA 7/ejercicio5_LilianaVera_Original.txt>)
+> **Docente:** Ana Liliana Vera Gómez
 > **Estatus:** Grabada en Piedra (Regla Global 40) — De estricto cumplimiento para TODOS los ejercicios.
 
 ---
@@ -8,7 +8,7 @@
 ## 🏛️ ESTRUCTURA OBLIGATORIA EN 4 SECCIONES
 
 ```text
-DATOS DE ENTRADA 
+DATOS DE ENTRADA
 	Variable_texto=""
 	Variable_numero=0
 	Variable_decimal=0.0
