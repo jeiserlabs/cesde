@@ -19,7 +19,7 @@ INSERT INTO EMPRESA (id_empresa, nit_rut, razon_social, direccion, telefono, ema
 
 -- 3. POBLAR CLIENTES
 INSERT INTO CLIENTE (id_cliente, documento, nombre_completo, email, telefono) VALUES
-(1, '712595289', 'Carlos Restrepo', 'crestrepo@gmail.com', '3001112233'),
+(1, '1099887766', 'Carlos Restrepo', 'crestrepo@gmail.com', '3001112233'),
 (2, '900555666', 'Restaurante La Sazón Paisa S.A.S.', 'compras@lasazonpaisa.com', '6043219876'),
 (3, '43555666', 'María Fernanda Gómez', 'mafe.gomez@hotm.com', '3157778899');
 
