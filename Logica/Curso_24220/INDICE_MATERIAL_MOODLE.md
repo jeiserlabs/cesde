@@ -32,6 +32,8 @@
 | 20 | `20_Otros ejercicios para prácticar.pdf` | 15.9 MB | `59631ca34cfe8e58c87e4661d38c9390` | Sí (copia canónica en `logica_programacion`) |
 | 21 | `21_SOLUCION.docx` | 19 KB | `44dd49b7851c22b75721f6cb10311e81` | No |
 
+> **Nota de escaneo (auditoría 01-nov-2026):** `16_Ejercicios repetitivos ciclo para.pdf` no tiene capa de texto (2 páginas escaneadas). Se conserva íntegro en Drive y se puede leer como imagen, pero su contenido no es indexable. Los otros 20 archivos tienen texto extraíble.
+
 ## Ubicación de los archivos complementarios
 
 | Archivo | Carpeta en Drive |
