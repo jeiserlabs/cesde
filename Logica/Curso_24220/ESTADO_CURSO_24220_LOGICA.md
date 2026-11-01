@@ -2,7 +2,7 @@
 **Docente:** Ana Liliana Vera Gómez
 **Estudiante:** Jeiser Gutiérrez
 **Fecha de corte:** 31 de Octubre de 2026
-**Ubicación local:** `C:\Users\dev\Desktop\Logica\`
+**Ubicación canónica:** `C:\PROYECTOS\Mis_Proyectos\CESDE\Logica\Curso_24220\` (original de Escritorio en cuarentena: `C:\PROYECTOS\_archive_2026-10\estudio_desktop_20261031\Logica\`)
 
 ---
 
@@ -40,7 +40,7 @@
 ---
 
 ## 3. INVENTARIO DE RECURSOS DESCARGADOS (21 ARCHIVOS)
-**Carpeta:** `C:\Users\dev\Desktop\Logica\Material_Moodle_Descargado\`
+**Carpeta (respaldo):** [Material_Moodle_Descargado en Drive](https://drive.google.com/drive/folders/1UBz6j2XnM1Tnp4FqzdofG3b1hXaMv0w8)
 
 1. `01_Planeador Lógica de programación 2026-1.xlsx` (Planeador institucional con temas y cronograma)
 2. `02_Mecanet.zip` (Software para agilidad de digitación)
@@ -67,7 +67,7 @@
 ---
 
 ## 4. ARCHIVOS DE TRABAJO LOCAL CONSOLIDADOS EN ESCRITORIO
-**Carpeta:** `C:\Users\dev\Desktop\Logica\`
+**Carpeta (texto en repo):** `Logica/Curso_24220/`; los binarios están en Drive (ver `INDICE_MATERIAL_MOODLE.md`).
 
 - `Conceptos de Arreglos (Vectores y Matrices).pdf` (Teoría de arreglos unidimensionales y bidimensionales)
 - `Conceptos de Métodos y Funciones.pdf` (Modularización, paso de parámetros por valor/referencia)
