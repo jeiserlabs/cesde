@@ -2,7 +2,7 @@
 
 **Fecha:** 12 de Septiembre de 2026  
 **Institución:** CESDE - Nivel 1  
-**Profesor:** Ing. Jonathan Felipe Piedrahita Nieto (`REDACTADO_PII_DOCENTE` | Cel: REDACTADO_PII_DOCENTE)  
+**Profesor:** Ing. Jonathan Felipe Piedrahita Nieto  
 **Módulo:** Introducción a la Programación  
 **Tema:** CSS3: Selectores, Box Model, Combinadores y Multimedia HTML5  
 **Repositorio Oficial del Docente:** `https://github.com/ingfelipe244/panaderia.git`  
