@@ -1,0 +1,82 @@
+================================================================================
+CESDE - ESCUELA DE DESARROLLO DE SOFTWARE
+LÓGICA DE PROGRAMACIÓN - SEMANA 8
+DOCENTE: ANA LILIANA VERA GÓMEZ
+ACTIVIDAD: EJERCICIO CALIFICABLE CON SI Y CASO
+CASO: TIENDA EN LÍNEA - DOBLE FACTOR DE DESCUENTO
+================================================================================
+
+1. DESCRIPCIÓN DEL PROBLEMA:
+Una tienda en línea desea implementar un sistema para determinar el descuento
+aplicable a un cliente basado en dos factores determinantes:
+
+A. Factor 1: Tipo de Cliente (Estructura Selector Múltiple / CASO):
+   - 1: Nuevo      -> 5% de descuento base
+   - 2: Frecuente  -> 10% de descuento base
+   - 3: VIP        -> 15% de descuento base
+
+B. Factor 2: Monto de Compra (Estructura Condicional / SI):
+   - Si el monto es mayor o igual a $10.000.000 COP -> 15% de descuento adicional.
+   - Si el monto es menor a $10.000.000 COP        -> 5% de descuento adicional.
+
+Se debe calcular y mostrar:
+- Nombre del cliente
+- Valor de la compra inicial
+- Porcentaje y valor del descuento por tipo de cliente
+- Porcentaje y valor del descuento adicional por monto
+- Total de descuentos acumulados
+- Monto final neto a pagar
+
+--------------------------------------------------------------------------------
+2. ANÁLISIS METODOLÓGICO (E-P-S):
+--------------------------------------------------------------------------------
+
+A. DATOS DE ENTRADA (D.E.):
+   - nomCliente    : Cadena de texto (Nombre del comprador)
+   - catCliente    : Entero (1: Nuevo, 2: Frecuente, 3: VIP)
+   - montoBruto    : Real positivo (Valor inicial de la compra en COP)
+
+B. PROCESOS Y FÓRMULAS (D.P.):
+   1. Factor 1 - Tipo de Cliente (Segun catCliente):
+      - Si es 1: porcBase = 5%, etiquetaTipo = "Nuevo"
+      - Si es 2: porcBase = 10%, etiquetaTipo = "Frecuente"
+      - Si es 3: porcBase = 15%, etiquetaTipo = "VIP"
+      - De otro modo: porcBase = 0%, etiquetaTipo = "No Registrado"
+   2. Factor 2 - Monto de Compra (Si montoBruto >= 10000000):
+      - Si Verdadero: porcVolumen = 15%
+      - Si Falso: porcVolumen = 5%
+   3. Cálculos de Liquidación:
+      - rebajaBase    = montoBruto * (porcBase / 100)
+      - rebajaVolumen = montoBruto * (porcVolumen / 100)
+      - rebajaTotal   = rebajaBase + rebajaVolumen
+      - montoNeto     = montoBruto - rebajaTotal
+
+C. DATOS DE SALIDA (D.S.):
+   - nomCliente
+   - etiquetaTipo
+   - montoBruto
+   - porcBase y rebajaBase
+   - porcVolumen y rebajaVolumen
+   - rebajaTotal
+   - montoNeto
+
+--------------------------------------------------------------------------------
+3. PRUEBA DE ESCRITORIO (DRY RUN):
+--------------------------------------------------------------------------------
+Caso 1:
+- nomCliente    : Maria Gomez
+- catCliente    : 1 (Nuevo)
+- montoBruto    : $2.000.000 COP
+- rebajaBase    : $100.000 COP (5%)
+- rebajaVolumen : $100.000 COP (5% adicional por ser < $10M)
+- rebajaTotal   : $200.000 COP
+- montoNeto     : $1.800.000 COP
+
+Caso 2:
+- nomCliente    : Carlos Restrepo
+- catCliente    : 3 (VIP)
+- montoBruto    : $12.000.000 COP
+- rebajaBase    : $1.800.000 COP (15%)
+- rebajaVolumen : $1.800.000 COP (15% adicional por ser >= $10M)
+- rebajaTotal   : $3.600.000 COP
+- montoNeto     : $8.400.000 COP

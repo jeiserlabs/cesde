@@ -1,0 +1,85 @@
+{
+  "curso": "Lógica de Programación",
+  "docente": "Ana Liliana Vera Gómez",
+  "fechaAuditoria": "31/10/2026, 4:01:06 p. m.",
+  "totalSemanas": 15,
+  "secciones": [
+    {
+      "tileId": "tile-1",
+      "semana": "Semana 1",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-2",
+      "semana": "Semana 2",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-3",
+      "semana": "Semana 3",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-4",
+      "semana": "Semana 4 - Semana 5",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-6",
+      "semana": "Semana 6",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-7",
+      "semana": "Semana 7",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-8",
+      "semana": "Semana 8",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-9",
+      "semana": "Semana 9",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-10",
+      "semana": "Semana 10",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-11",
+      "semana": "Semana 11",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-12",
+      "semana": "Semana 12",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-13",
+      "semana": "Semana 13 - Semana 14",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-15",
+      "semana": "Semana 15 - 16 - 17",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-17",
+      "semana": "Semana 17",
+      "actividades": []
+    },
+    {
+      "tileId": "tile-18",
+      "semana": "Semana 18",
+      "actividades": []
+    }
+  ],
+  "tareasAuditadas": [],
+  "pendientes": []
+}
